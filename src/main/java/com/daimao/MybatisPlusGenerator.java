@@ -29,7 +29,7 @@ public class MybatisPlusGenerator {
             "jdbc:mysql://192.168.141.30:3306/BID_TEST?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai";
     public static final String USERNAME = "root";
     public static final String PASSWORD = "123456";
-    public static final String[] TABLES ={"structure_bid_data","structure_product_data"};
+    public static final String[] TABLES ={"structure_product_data"};
 
 
 
@@ -47,7 +47,7 @@ public class MybatisPlusGenerator {
         gc.setEnableCache(false);// XML 二级缓存
         gc.setBaseResultMap(true);// XML ResultMap
         gc.setBaseColumnList(false);// XML columList
-        gc.setAuthor("xwd");// 作者
+        gc.setAuthor("呆毛");// 作者
 
 
         // 自定义文件命名，注意 %s 会自动填充表实体属性！        文件名  后缀
